@@ -22,4 +22,5 @@ function addInvestor() {
 
 function calculateTotal() {
   var string = document.getElementById("investors");
+  alert("Peter, I ain't done this shit yet. Don't be clicking where you ain't supposed to be clicking, boi.")
 }
