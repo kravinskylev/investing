@@ -12,6 +12,7 @@
  *
  *= require_tree .
  *= require_self
+ *= require octicons
  */
 body {
   background-image: url(money.jpg);
