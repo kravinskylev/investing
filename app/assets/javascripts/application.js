@@ -16,6 +16,14 @@
 //= require_tree .
 //
 function addInvestor() {
- var investors = document.getElementById("investors");
- investors.innerHTML = investors.innerHTML + "<input type='number' placeholder='Investment'><br><br>";
+  var investors = document.getElementById("investors");
+  investors.innerHTML = investors.innerHTML + "<input type='number' placeholder='Investment'><br><br>";
+}
+
+function calculateTotal() {
+  var string = document.getElementById("investors");
+  var elements = $(string).map(function() {
+    return $('<div>').append(this).html();  // Basically `.outerHTML()`
+});
+console.log(elements);
 }
