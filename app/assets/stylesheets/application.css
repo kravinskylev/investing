@@ -13,6 +13,10 @@
  *= require_tree .
  *= require_self
  */
+body {
+  background-image: url(money.jpg);
+  background-size: 100%;
+}
 
 .wrapper {
   text-align: center;
