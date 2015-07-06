@@ -14,3 +14,8 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+//
+function addInvestor() {
+ var investors = document.getElementById("investors");
+ investors.innerHTML = investors.innerHTML + "<input type='number' placeholder='Investment'><br><br>";
+}
